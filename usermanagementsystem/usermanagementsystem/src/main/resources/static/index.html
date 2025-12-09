@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Management</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h1>User Management</h1>
+
+    <section id="create">
+        <h2>Create / Update User</h2>
+        <form id="userForm">
+            <input type="hidden" id="userId" />
+            <label>
+                Name
+                <input type="text" id="name" required />
+            </label>
+            <label>
+                Phone
+                <input type="text" id="phone" />
+            </label>
+            <label>
+                Email
+                <input type="email" id="email" />
+            </label>
+            <div class="controls">
+                <button type="submit" id="saveBtn">Save</button>
+                <button type="button" id="resetBtn">Reset</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="list">
+        <h2>Users</h2>
+        <div id="status"></div>
+        <table id="usersTable">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Actions</th>
+                <th>Excel</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </section>
+</div>
+
+<input type="file" id="excelInput" accept=".xlsx" style="display:none;" />
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, Segoe UI, Helvetica, Arial, sans-serif;
+    background: #f6f8fb;
+    color: #111;
+    margin: 0;
+    padding: 24px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(30, 40, 60, 0.08);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+form label {
+    display: block;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.controls {
+    margin-top: 12px;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    background: #0b79d0;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button[disabled] {
+    opacity: .6;
+    cursor: default;
+}
+
+button.secondary {
+    background: #6c757d;
+}
+
+button.danger {
+    background: #d9534f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th,
+td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    font-size: 14px;
+}
+
+.actions button {
+    margin-right: 6px;
+}
+
+#status {
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #444;
+}
+
+.excel-actions button {
+    margin-right: 6px;
+}

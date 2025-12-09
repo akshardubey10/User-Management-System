@@ -1,0 +1,11 @@
+com\osiansoftware\usermanagementsystem\ScoreRepository.class
+com\osiansoftware\usermanagementsystem\Score.class
+com\osiansoftware\usermanagementsystem\UserServiceImpl.class
+com\osiansoftware\usermanagementsystem\UserService.class
+com\osiansoftware\usermanagementsystem\ExcelFileRepository.class
+com\osiansoftware\usermanagementsystem\User.class
+com\osiansoftware\usermanagementsystem\ExcelFile.class
+com\osiansoftware\usermanagementsystem\UserEntity.class
+com\osiansoftware\usermanagementsystem\UsermanagementsystemApplication.class
+com\osiansoftware\usermanagementsystem\UserRepository.class
+com\osiansoftware\usermanagementsystem\UserController.class
